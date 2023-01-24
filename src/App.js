@@ -1,10 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 import FilterCars from './FilterCars';
+import Cars from './Cars';
 
 function App() {
   return (
-   <FilterCars/>
+  <div>
+    <FilterCars/>
+    <Cars/>
+   </div>
+   
   );
 }
 
