@@ -1,8 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import FilterCars from './FilterCars';
 
-function App() {
+function App(
+) {
+  console.log('cars')
   return (
    <FilterCars/>
   );
