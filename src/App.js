@@ -10,11 +10,11 @@ function App() {
     .then((response) => response.json())
     .then((car) => setCars(car))
   },[])
-  console.log(cars)
+  // console.log(cars)
   return (
   <div>
     <FilterCars/>
-    <Cars/>
+    <Cars cars = {cars}/>
    </div>
    
   );
