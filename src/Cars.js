@@ -2,10 +2,9 @@ import React from 'react'
 
 function Cars({cars}) {
   const allCars = cars.map((car)=> {
-    console.log(car.image)
     return(
-      <div key={car.id} className="card" style={{width: "18rem"}}>
-      <img src={car.image} className="card-img-top" alt="..."/>
+      <div key={car.id} className="card m-2" style={{width: "18rem"}}>
+      <img src={car.image} className="card-img-top m-2" alt="..."/>
       <div className="card-body">
       <h5 className="card-title">{car.make}</h5>
       <p className="card-text">{car.model}</p>
@@ -18,7 +17,7 @@ function Cars({cars}) {
   })
 
   return (
-    <div>
+    <div className="row">
      {allCars}
     </div>
   )
