@@ -1,10 +1,9 @@
-import React from "react";
+import React from 'react'
 
 function Cars() {
-  return 
-  <div>
-  </div>;
+  return (
+    <div>Cars</div>
+  )
 }
 
-export default Cars;
-
+export default Cars
