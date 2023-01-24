@@ -6,7 +6,8 @@
         "make": "Buick", 
         "model": "Enclave", 
         "type": "SUV",
-        "image": "https://m.atcdn.co.uk/vms/media/93f6e5e2bf4e494785ff134b1676c890.jpg"
+        "image": "https://m.atcdn.co.uk/vms/media/93f6e5e2bf4e494785ff134b1676c890.jpg",
+        "price":"Ksh. 850,000"
        },
         {
         "id": 9583, 
@@ -14,7 +15,8 @@
         "make": "MINI", 
         "model": "Convertible", 
         "type": "Convertible",
-        "image": "https://m.atcdn.co.uk/vms/media/93f6e5e2bf4e494785ff134b1676c890.jpg"
+        "image": "https://m.atcdn.co.uk/vms/media/93f6e5e2bf4e494785ff134b1676c890.jpg",
+        "price": "Ksh. 950,000"
        },
         {
         "id": 9584, 
@@ -22,7 +24,8 @@
         "make": "Volvo",
          "model": "XC90", 
          "type": "SUV",
-         "image": "https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cms.haymarketindia.net/model/uploads/modelimages/XC90ModelImage.jpg&w=730&h=484&q=75&c=1"
+         "image": "https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cms.haymarketindia.net/model/uploads/modelimages/XC90ModelImage.jpg&w=730&h=484&q=75&c=1",
+         "price": "Ksh. 1,005,000"
        },
         {
         "id": 9585, 
@@ -30,14 +33,16 @@
         "make": "Ford", 
         "model": "Taurus",
          "type": "Sedan, Wagon",
-         "image": "https://www.motortrend.com/uploads/sites/10/2019/06/2019-ford-taurus-sho-sedan-angular-front.png"
+         "image": "https://www.motortrend.com/uploads/sites/10/2019/06/2019-ford-taurus-sho-sedan-angular-front.png",
+         "price":"Ksh. 2,105,000"
        },
         {"id": 9586,
          "year": 2020, 
          "make": "Volvo", 
          "model": "XC60", 
          "type": "SUV",
-         "image": "https://www.ccarprice.com/products/Volvo-XC60-2023.jpg"
+         "image": "https://www.ccarprice.com/products/Volvo-XC60-2023.jpg",
+         "price":"Ksh. 1,000,000"
        },
         {
         "id": 9587, 
@@ -45,7 +50,8 @@
         "make": "HUMMER", 
         "model": "H2'", 
         "type": "SUV",
-        "image": "https://www.topgear.com/sites/default/files/2022/10/Screenshot%202022-10-06%20at%2011.53.40.png?w=976&h=549"
+        "image": "https://www.topgear.com/sites/default/files/2022/10/Screenshot%202022-10-06%20at%2011.53.40.png?w=976&h=549",
+        "price": "Ksh. 9,000,000"
        },
         {
         "id": 9588, 
@@ -53,7 +59,8 @@
         "make": "GMC'", 
         "model": "Sierra",
         "type": "SUV",
-        "image": "https://www.gmc.com/content/dam/gmc/na/us/english/index/01-images/homepage-assets/2023-yukon-denali-700x380-23PGYK00011-v2.jpg?imwidth=960"
+        "image": "https://www.gmc.com/content/dam/gmc/na/us/english/index/01-images/homepage-assets/2023-yukon-denali-700x380-23PGYK00011-v2.jpg?imwidth=960",
+        "price": "Ksh. 10,000,000"
        }
        
        ]
