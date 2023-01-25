@@ -1,7 +1,7 @@
 import './App.css';
-import FilterCars from './FilterCars';
 import Cars from './Cars';
 import React, { useEffect , useState} from 'react';
+import PostCars from './PostCars';
 
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
 
   return (
   <div>
-    <FilterCars/>
+    <PostCars/>
     <Cars cars = {cars}/>
    </div>
    
