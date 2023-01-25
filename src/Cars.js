@@ -10,7 +10,7 @@ function Cars({cars}) {
       <p className="card-text">{car.model}</p>
       <p className="card-text">{car.year}</p>
       <h3 className="card-title">{car.type}</h3>
-      <a href="#!" className="btn btn-primary">{car.price}</a>
+      <a href="#!" className="btn btn-primary">Ksh {car.price}</a>
       </div>
     </div>
     )
