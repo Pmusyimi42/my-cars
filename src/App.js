@@ -3,6 +3,7 @@ import FilterCars from './FilterCars';
 import Cars from './Cars';
 import React, { useEffect , useState} from 'react';
 
+
 function App() {
   const [cars, setCars] = useState([])
   useEffect (()=> {
@@ -11,6 +12,7 @@ function App() {
     .then((car) => setCars(car))
   },[])
   // console.log(cars)
+
   return (
   <div>
     <FilterCars/>
