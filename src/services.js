@@ -10,7 +10,7 @@ const services=() => {
                     <div />
                     <ul className='services_list'>
                         <li>
-                            <p>Third Party</p>
+                            <p>Third Party car Insurance</p>
                         </li>
                         <li>
                             <p>Comprehesive covers</p>
@@ -24,7 +24,7 @@ const services=() => {
                         </li>
                         <li>
                             <p>Full car services</p>
-                        </li>    
+                        </li>                        
                     </ul>
                 </article>
             </div></>
