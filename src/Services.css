@@ -1,0 +1,33 @@
+.services_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+.services   {
+    background-color: #33404a;
+    border-radius: 0 0 1rem 1rem;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+}
+.services_hover {
+    background: transparent;
+    border-color: rgb(202, 234, 21);
+    cursor: default;
+}
+
+.services_head h3 {
+    color: var(--color-bg);
+    font-size: 1.2rem;
+    text-align: justify;
+}
+.services_list {
+    padding: 2rem;
+}
+.services_list li {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2.1px;
+}
+.services_list{
+    font-size: 1rem;
+}

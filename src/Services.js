@@ -1,4 +1,5 @@
 import './app.css'
+import './Services.css'
 
 const services=() => {
     return (
