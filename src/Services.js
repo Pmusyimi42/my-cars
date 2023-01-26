@@ -7,7 +7,8 @@ const Services=() => {
 
     return (
         <section id='services'>
-            <><h2>Our Services</h2><div className='Container services_container'>
+            <h2>Our Services</h2>
+            <div className='Container services_container'>
                 <article className='services'>
                     <div className='services_head>' />
                     <h3>Insurance</h3>
@@ -32,7 +33,7 @@ const Services=() => {
                         </li>    
                     </ul>
                 </article>
-            </div></>
+            </div>
         </section>
         
     )           
