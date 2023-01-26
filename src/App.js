@@ -3,6 +3,7 @@ import Cars from './Cars';
 import React, { useEffect , useState} from 'react';
 import PostCars from './PostCars';
 import Services from './Services';
+import Navbar from './Navbar';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
 
   return (
   <div>
+    <Navbar/>
     <PostCars/>
     <Cars cars = {cars} handleDelete = {handleDeleteCar}/>
     <Services/>
