@@ -1,7 +1,10 @@
 import './App.css';
-import FilterCars from './FilterCars';
 import Cars from './Cars';
 import React, { useEffect , useState} from 'react';
+import PostCars from './PostCars';
+import Services from './Services';
+import Navbar from './Navbar';
+
 
 function App() {
   const [cars, setCars] = useState([])
@@ -11,13 +14,25 @@ function App() {
     .then((car) => setCars(car))
   },[])
   // console.log(cars)
+
+  function handleDeleteCar(e) {
+    const deletedCar = parseInt(e.target.parentNode.parentNode.id)
+  const updatedCars = cars.filter((car) => {
+    return car.id !== deletedCar
+  });
+    setCars(updatedCars);
+  }
+
   return (
   <div>
-    <FilterCars/>
-    <Cars cars = {cars}/>
+    <Navbar/>
+    <PostCars/>
+    <Cars cars = {cars} handleDelete = {handleDeleteCar}/>
+    <Services/>
    </div>
    
   );
 }
 
 export default App;
+
