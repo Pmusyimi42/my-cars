@@ -1,6 +1,11 @@
 import './App.css'
 
+import './Services.css'
+
+
+
 const Services=() => {
+
     return (
         <section id='services'>
             <><h2>Our Services</h2><div className='Container services_container'>
@@ -10,7 +15,8 @@ const Services=() => {
                     <div />
                     <ul className='services_list'>
                         <li>
-                            <p>Third Party</p>
+                            <p>Third Party car Insurance</p>
+
                         </li>
                         <li>
                             <p>Comprehesive covers</p>
@@ -24,6 +30,7 @@ const Services=() => {
                         </li>
                         <li>
                             <p>Full car services</p>
+
                         </li>    
                     </ul>
                 </article>
@@ -32,4 +39,5 @@ const Services=() => {
         
     )           
 }
+
 export default Services;
