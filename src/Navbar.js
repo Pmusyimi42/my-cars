@@ -1,21 +1,9 @@
 import React from 'react';
 import {Link} from  "react-router-dom"
+import Search from './Search';
 
-function Navbar() {
+function Navbar({search, setSearch}) {
   return (
-    // <>
-    //   <Navbar bg="dark" variant="dark">
-    //     <Container>
-    //       <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-    //       <Nav className="me-auto">
-    //         <Nav.Link href="#home">Home</Nav.Link>
-    //         <Nav.Link href="#features">Features</Nav.Link>
-    //         <Nav.Link href="#pricing">Pricing</Nav.Link>
-    //       </Nav>
-    //     </Container>
-    //   </Navbar>
-    // </>
-
   <nav className="navbar navbar-expand-lg bg-light">
   <div className="container-fluid">
     <a className="navbar-brand" to="#"> Pembroke </a>
@@ -39,10 +27,7 @@ function Navbar() {
           <Link className="nav-link" to="/postCars">Post Cars</Link>
         </li>
       </ul>
-      <form className="d-flex" role="search">
-        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button className="btn btn-outline-success" type="submit">Search</button>
-      </form>
+      <Search search={search} setSearch={setSearch}/>
     </div>
   </div>
 </nav>
