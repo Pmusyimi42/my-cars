@@ -1,6 +1,6 @@
 .services_container {
     display: grid;
-    background-color: var(--color-primary);
+    background-color: rgb(34, 34, 185);
     grid-template-columns: repeat(2, 1fr);
     gap: 0.6rem;
 }
@@ -11,17 +11,17 @@
 }
 .services_hover {
     background: transparent;
-    border-color: rgb(193, 225, 12);
+    border-color:var(--main)!important;
     cursor: default;
 }
 
 .services_head h3 {
-    color: var(--color-bg);
+    color: rgb(43, 226, 101);
     font-size: 1.2rem;
     text-align: justify;
 }
-.services_list ui {
-    padding: 2rem;
+.services_list ul {
+    padding: 1rem;
 }
 .services_list li {
     display: flex;
