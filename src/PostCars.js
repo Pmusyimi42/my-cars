@@ -46,13 +46,13 @@ const PostCars = () => {
                     <input type="text" onChange= {e=>setModel(e.target.value)} className="form-control" id="inputPassword2" placeholder="Model"/>
                 </div>
                 <div className="col-auto">
-                    <input type="text" onChange= {e=>setImage(parseInt(e.target.value))} className="form-control" id="inputPassword2" placeholder="Image Url"/>
+                    <input type="text" onChange= {e=>setImage((e.target.value))} className="form-control" id="inputPassword2" placeholder="Image Url"/>
                 </div>
                 <div className="col-auto">
                     <input type="text" onChange= {e=>setType(e.target.value)} className="form-control" id="inputPassword2" placeholder="Type"/>
                 </div>
                 <div className="col-auto">
-                    <input type="number" onChange= {e=>setPrice(e.target.value)} min = {700000} className="form-control" id="inputPassword2" placeholder="Price"/>
+                    <input type="number" onChange= {e=>setPrice(parseInt(e.target.value))} min = {700000} className="form-control" id="inputPassword2" placeholder="Price"/>
                 </div>
                 <div className="col-auto">
                     <button type="submit" className="btn btn-primary mb-3"> Submit </button>
