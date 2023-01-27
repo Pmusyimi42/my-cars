@@ -11,7 +11,7 @@
 }
 .services_hover {
     background: transparent;
-    border-color: rgb(193, 225, 12);
+    border-color:var(--main)!important;
     cursor: default;
 }
 
