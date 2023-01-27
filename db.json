@@ -64,7 +64,7 @@
       "id": 9592
     },
     {
-      "year": "2008",
+      "year": 2008,
       "make": "H2",
       "model": "Hummer",
       "type": "Suv",
@@ -73,7 +73,7 @@
       "id": 9593
     },
     {
-      "year": "2007",
+      "year": 2007,
       "make": "Range Rover",
       "model": "sport",
       "type": "SUV",
@@ -82,13 +82,22 @@
       "id": 9594
     },
     {
-      "year": "2020",
+      "year": 2020,
       "make": "JEEP",
       "model": "Cherokee",
       "type": "SUV",
       "image": "https://hips.hearstapps.com/hmg-prod/images/2020-jeep-cherokee-mmp-1-1567804155.jpg?crop=0.728xw:0.779xh;0.272xw,0.221xh&resize=2048:*",
       "price": "7000000",
       "id": 9595
+    },
+    {
+      "year": 1999,
+      "make": "H2",
+      "model": "audi",
+      "type": "audi",
+      "image": null,
+      "price": "700000",
+      "id": 9596
     }
   ]
 }
