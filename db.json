@@ -64,7 +64,7 @@
       "id": 9592
     },
     {
-      "year": "2008",
+      "year": 2008,
       "make": "H2",
       "model": "Hummer",
       "type": "Suv",
@@ -73,7 +73,7 @@
       "id": 9593
     },
     {
-      "year": "2007",
+      "year": 2007,
       "make": "Range Rover",
       "model": "sport",
       "type": "SUV",
@@ -82,7 +82,7 @@
       "id": 9594
     },
     {
-      "year": "2020",
+      "year": 2020,
       "make": "JEEP",
       "model": "Cherokee",
       "type": "SUV",
@@ -92,21 +92,13 @@
     },
     {
       "year": 1999,
-      "make": "Volvo",
-      "model": "XC90",
-      "type": "SUV",
-      "image": null,
-      "price": "700250",
-      "id": 9596
-    },
-    {
-      "year": 2015,
-      "make": "Volvo",
-      "model": "XC90",
-      "type": "SUV",
+
+      "make": "H2",
+      "model": "audi",
+      "type": "audi",
       "image": null,
       "price": "700000",
-      "id": 9597
+      "id": 9596
     }
   ]
 }
