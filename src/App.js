@@ -29,11 +29,12 @@ function App() {
   <div>
     <Navbar search = {search} setSearch = {setSearch}/>
     <Routes>
-      <Route path='/home' element = {<Home/>}/>
+      <Route path='/home' exact element = {<Home/>}/>
       <Route path='/cars' element = {<Cars  cars = {cars} handleDelete = {handleDeleteCar} 
        search = {search} setSearch = {setSearch}/>}/>
       <Route path='/postCars' element = {<PostCars/>}/>
       <Route path='/services' element = {<Services/>}/>
+      <Route path='/'  element = {<Home/>}/>
     </Routes>
    </div>
   );

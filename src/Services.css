@@ -1,6 +1,6 @@
 .services_container {
     display: grid;
-    background-color: rgb(34, 34, 185);
+    background-color: rgb(202, 202, 210);
     grid-template-columns: repeat(2, 1fr);
     gap: 0.6rem;
 }
