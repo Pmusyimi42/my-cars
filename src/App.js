@@ -9,6 +9,7 @@ import Home from './Home';
 
 function App() {
   const [cars, setCars] = useState([])
+  const [search, setSearch] = useState("")
   useEffect (()=> {
     fetch ("http://localhost:5001/cars")
     .then((response) => response.json())
@@ -23,13 +24,14 @@ function App() {
   });
     setCars(updatedCars);
   }
-
+  
   return (
   <div>
-    <Navbar/>
+    <Navbar search = {search} setSearch = {setSearch}/>
     <Routes>
       <Route path='/home' element = {<Home/>}/>
-      <Route path='/cars' element = {<Cars cars = {cars} handleDelete = {handleDeleteCar}/>}/>
+      <Route path='/cars' element = {<Cars  cars = {cars} handleDelete = {handleDeleteCar} 
+       search = {search} setSearch = {setSearch}/>}/>
       <Route path='/postCars' element = {<PostCars/>}/>
       <Route path='/services' element = {<Services/>}/>
     </Routes>
